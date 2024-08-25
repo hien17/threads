@@ -75,7 +75,7 @@
   }
 
   .leftsidebar {
-    @apply sticky left-0 top-0 z-20 flex h-screen w-fit  flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
+    @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
   }
 
   .leftsidebar_link {
@@ -93,7 +93,7 @@
 
 @layer utilities {
   .css-invert {
-    @apply invert-[50%] brightness-200;
+    @apply brightness-200 invert-[50%];
   }
 
   .custom-scrollbar::-webkit-scrollbar {
@@ -121,9 +121,7 @@
   @apply max-sm:hidden;
 }
 
-.cl-organizationSwitcherTrigger
-  .cl-organizationPreview
-  .cl-organizationPreviewTextContainer {
+.cl-organizationSwitcherTrigger .cl-organizationPreview .cl-organizationPreviewTextContainer {
   @apply max-sm:hidden;
 }
 
